@@ -583,6 +583,101 @@ button {
 }
 
 /* ============================================
+   TRANSFORMATION SECTION
+   ============================================ */
+.transformation {
+    padding: var(--space-32) 0;
+    background-color: var(--color-white);
+    position: relative;
+}
+
+.transformation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-20);
+    align-items: center;
+}
+
+.transformation-description p {
+    font-size: var(--text-lg);
+    line-height: 1.8;
+    color: var(--color-gray-600);
+    margin-bottom: var(--space-6);
+}
+
+.transformation-description strong {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.transformation-actions {
+    margin-top: var(--space-10);
+}
+
+.transformation-visual {
+    position: relative;
+    padding: var(--space-4);
+}
+
+.ba-card {
+    background: var(--color-cream);
+    padding: var(--space-4);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--color-gray-200);
+}
+
+.ba-image-wrapper {
+    position: relative;
+    aspect-ratio: 4/5;
+    overflow: hidden;
+}
+
+.ba-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.ba-card:hover .ba-img {
+    transform: scale(1.02);
+}
+
+.ba-tag {
+    position: absolute;
+    padding: var(--space-2) var(--space-4);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    z-index: 2;
+}
+
+.ba-tag.before {
+    top: 20px;
+    left: 20px;
+    background: rgba(150, 0, 0, 0.9);
+    color: white;
+}
+
+.ba-tag.after {
+    bottom: 20px;
+    right: 20px;
+    background: var(--color-accent);
+    color: var(--color-white);
+}
+
+.ba-caption {
+    margin-top: var(--space-4);
+    font-size: var(--text-xs);
+    color: var(--color-gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+/* ============================================
    SOBRE SECTION
    ============================================ */
 .sobre-grid {
@@ -1263,11 +1358,22 @@ button {
         left: var(--space-4);
     }
 
+    .transformation-grid,
     .sobre-grid,
     .diferenciais-grid,
     .contato-grid {
         grid-template-columns: 1fr;
         gap: var(--space-12);
+    }
+
+    .transformation-content {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .transformation-visual {
+        order: -1;
     }
 
     .especialidades-grid {
