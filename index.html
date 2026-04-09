@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Odonto Novo Leblon - Especialista em Implantes Dentários. Atendimento humanizado com tecnologia de ponta na Barra da Tijuca.">
+    <meta name="theme-color" content="#1A3A4A">
+
+    <!-- Favicon e Ícones -->
+    <link rel="icon" type="image/x-icon" href="assets/logo-odonto-novo-leblon-favicon.ico">
+    <link rel="icon" type="image/webp" href="assets/logo-odonto-novo-leblon-512x512.webp" sizes="512x512">
+    <link rel="apple-touch-icon" href="assets/logo-odonto-novo-leblon-512x512.webp">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:image" content="assets/logo-odonto-novo-leblon-desktop.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"
+        content="Odonto Novo Leblon - Clínica Especialista em Implantes Dentários na Barra da Tijuca, Rio de Janeiro">
+
+    <title>Odonto Novo Leblon | Especialista em Implantes Dentários</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo" aria-label="Odonto Novo Leblon - Página Inicial">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="assets/logo-odonto-novo-leblon-mobile.webp"
+                        type="image/webp">
+                    <img src="assets/logo-odonto-novo-leblon-desktop.webp"
+                        alt="Logo Odonto Novo Leblon - Clínica Especialista em Implantes Dentários" class="logo-image"
+                        loading="eager">
+                </picture>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
+                <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <li><a href="https://wa.me/5521997274651" class="nav-cta" target="_blank">Agendar Consulta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-eyebrow">Especialista em Implantodontia</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Restaurando <span class="title-accent">sorrisos</span></span>
+                    <span class="title-line">com excelência</span>
+                </h1>
+                <p class="hero-description">
+                    Atendimento humanizado aliado à tecnologia de ponta para transformar
+                    sua experiência odontológica. Implantes com prótese fixa no mesmo dia.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5521997274651" class="btn btn-primary" target="_blank">
+                        <span>Agendar Consulta</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5521997274651" class="btn btn-emergency" target="_blank">
+                        <span class="pulse-dot"></span>
+                        <span>Emergência 24h</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">+500</span>
+                        <span class="stat-label">Implantes Realizados</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="hero-image-frame">
+                        <video autoplay muted loop playsinline class="hero-video">
+                            <source
+                                src="https://assets.cdn.filesafe.space/7hzaWcGgawCV1WudlwA7/media/69d718e6034bff42850d42e3.mp4"
+                                type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <div class="image-accent-line"></div>
+                        <div class="image-accent-circle"></div>
+                    </div>
+                    <div class="hero-badge">
+                        <span class="badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                        <span class="badge-text">Implante Imediato</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção Transformaçao -->
+    <section class="transformation" id="transformacao">
+        <div class="container">
+            <div class="transformation-grid">
+                <div class="transformation-content">
+                    <div class="section-eyebrow">Impacto Real</div>
+                    <h2 class="section-title">Mais que um sorriso,<br><span class="title-highlight">uma nova história</span></h2>
+                    <div class="transformation-description">
+                        <p>
+                            Muitas pessoas chegam até nós carregando o peso da insegurança. Evitar fotos, cobrir a boca ao rir ou sentir desconforto ao comer são dores silenciosas que afetam o dia a dia.
+                        </p>
+                        <p>
+                            Na <strong>Odonto Novo Leblon</strong>, projetamos a solução para que esse desconforto fique no passado. Através da implantodontia avançada, devolvemos a liberdade de sorrir com segurança, devolvendo não apenas a funcionalidade, mas a autoestima que você merece.
+                        </p>
+                    </div>
+                    <div class="transformation-actions">
+                        <a href="https://wa.me/5521997274651" class="btn btn-primary" target="_blank">Agendar minha avaliação</a>
+                    </div>
+                </div>
+                <div class="transformation-visual">
+                    <div class="ba-card">
+                        <div class="ba-image-wrapper">
+                            <img src="assets/tecnologia-odontologia-moderna.webp" alt="Transformação de Sorriso - Antes e Depois" class="ba-img">
+                            <div class="ba-tag before">Desconforto</div>
+                            <div class="ba-tag after">Confiança</div>
+                        </div>
+                        <div class="ba-caption">Resultado Real de Reabilitação Oral</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">Odonto Novo Leblon</span>
+                        </div>
+                        <div class="image-frame-accent"></div>
+                    </div>
+                </div>
+                <div class="sobre-content">
+                    <div class="section-eyebrow">Sobre o Especialista</div>
+                    <h2 class="section-title">Compromisso com a<br><span class="title-highlight">sua saúde bucal</span>
+                    </h2>
+                    <div class="sobre-text">
+                        <p>
+                            A <strong>Odonto Novo Leblon</strong> é especialista em implantodontia e estética dentária,
+                            com formação contínua nas mais avançadas técnicas do mercado. Nossa abordagem
+                            combina <em>precisão técnica</em> com um <em>atendimento acolhedor</em>, garantindo
+                            resultados excepcionais e uma experiência confortável para cada paciente.
+                        </p>
+                        <p>
+                            Na <strong>Odonto Novo Leblon</strong>, localizada na Barra da Tijuca, oferecemos
+                            tratamentos completos com tecnologia de ponta, incluindo o diferencial do
+                            <strong>implante imediato</strong> — onde você sai com a prótese fixa no mesmo dia do
+                            procedimento.
+                        </p>
+                    </div>
+                    <div class="sobre-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </span>
+                            <span class="feature-text">Tecnologia de Ponta</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </span>
+                            <span class="feature-text">Atendimento Humanizado</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </span>
+                            <span class="feature-text">Resultados Comprovados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades Section -->
+    <section class="especialidades section section-dark" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow">Nossos Serviços</div>
+                <h2 class="section-title">Tratamentos<br><span class="title-highlight">Especializados</span></h2>
+                <p class="section-subtitle">
+                    Oferecemos uma gama completa de tratamentos odontológicos com foco em
+                    implantodontia e estética dentária.
+                </p>
+            </div>
+            <div class="especialidades-grid">
+                <article class="especialidade-card featured">
+                    <div class="card-number">01</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Implante Dentário</h3>
+                        <p class="card-description">
+                            Recupere seu sorriso com implantes de alta qualidade.
+                            Oferecemos implante imediato com carga imediata —
+                            <strong>sai com a prótese fixa no mesmo dia</strong>.
+                        </p>
+                        <ul class="card-list">
+                            <li>Implante convencional</li>
+                            <li>Implante imediato</li>
+                            <li>Prótese sobre implante</li>
+                        </ul>
+                    </div>
+                    <div class="card-accent"></div>
+                </article>
+                <article class="especialidade-card">
+                    <div class="card-number">02</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Estética Dental</h3>
+                        <p class="card-description">
+                            Transforme seu sorriso com tratamentos estéticos personalizados
+                            para um resultado natural e harmonioso.
+                        </p>
+                        <ul class="card-list">
+                            <li>Facetas de porcelana</li>
+                            <li>Clareamento dental</li>
+                            <li>Harmonização facial</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="especialidade-card">
+                    <div class="card-number">03</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Cirurgia Oral</h3>
+                        <p class="card-description">
+                            Procedimentos cirúrgicos com técnica refinada e equipamentos
+                            modernos para máxima segurança e conforto.
+                        </p>
+                        <ul class="card-list">
+                            <li>Extração de sisos</li>
+                            <li>Cirurgia periodontal</li>
+                            <li>Cirurgia ortognática</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="especialidade-card">
+                    <div class="card-number">04</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Prótese Dentária</h3>
+                        <p class="card-description">
+                            Reabilitação oral completa com próteses fixas e removíveis
+                            de alta qualidade estética e funcional.
+                        </p>
+                        <ul class="card-list">
+                            <li>Coroas e pontes</li>
+                            <li>Prótese total</li>
+                            <li>Prótese flexível</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="especialidade-card">
+                    <div class="card-number">05</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Clínica Geral</h3>
+                        <p class="card-description">
+                            Cuidados preventivos e corretivos para manter sua saúde
+                            bucal em dia com atendimento completo.
+                        </p>
+                        <ul class="card-list">
+                            <li>Limpeza e profilaxia</li>
+                            <li>Restaurações</li>
+                            <li>Tratamento de cáries</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="especialidade-card">
+                    <div class="card-number">06</div>
+                    <div class="card-content">
+                        <h3 class="card-title">Endodontia</h3>
+                        <p class="card-description">
+                            Tratamento de canal com tecnologia moderna e técnicas
+                            avançadas para preservar seus dentes naturais.
+                        </p>
+                        <ul class="card-list">
+                            <li>Tratamento de canal</li>
+                            <li>Retratamento</li>
+                            <li>Cirurgia endodôntica</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais section" id="diferenciais">
+        <div class="container">
+            <div class="diferenciais-grid">
+                <div class="diferenciais-content">
+                    <div class="section-eyebrow">Por Que Nos Escolher</div>
+                    <h2 class="section-title">Diferenciais que<br><span class="title-highlight">fazem a diferença</span>
+                    </h2>
+                    <div class="diferenciais-list">
+                        <div class="diferencial-item" data-delay="0">
+                            <div class="diferencial-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6l4 2" />
+                                </svg>
+                            </div>
+                            <div class="diferencial-text">
+                                <h3>Implante Imediato</h3>
+                                <p>Saia com a prótese fixa no mesmo dia do procedimento. Tecnologia avançada que reduz o
+                                    tempo de tratamento.</p>
+                            </div>
+                        </div>
+                        <div class="diferencial-item" data-delay="100">
+                            <div class="diferencial-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                </svg>
+                            </div>
+                            <div class="diferencial-text">
+                                <h3>Tecnologia de Ponta</h3>
+                                <p>Equipamentos modernos e técnicas atualizadas para diagnóstico preciso e tratamentos
+                                    eficientes.</p>
+                            </div>
+                        </div>
+                        <div class="diferencial-item" data-delay="200">
+                            <div class="diferencial-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </div>
+                            <div class="diferencial-text">
+                                <h3>Atendimento Humanizado</h3>
+                                <p>Cuidado personalizado em cada etapa do tratamento, com foco no seu conforto e
+                                    bem-estar.</p>
+                            </div>
+                        </div>
+                        <div class="diferencial-item" data-delay="300">
+                            <div class="diferencial-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <div class="diferencial-text">
+                                <h3>Ambiente Premium</h3>
+                                <p>Estrutura moderna e acolhedora na Barra da Tijuca, projetada para oferecer a melhor
+                                    experiência.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diferenciais-visual">
+                    <div class="visual-container">
+                        <div class="visual-image">
+                            <div class="image-placeholder">
+                                <span class="placeholder-text">Tecnologia</span>
+                            </div>
+                        </div>
+                        <div class="visual-stats">
+                            <div class="vstat-item">
+                                <span class="vstat-number">98%</span>
+                                <span class="vstat-label">Taxa de Sucesso</span>
+                            </div>
+                            <div class="vstat-item">
+                                <span class="vstat-number">4.9</span>
+                                <span class="vstat-label">Avaliação Média</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Pronto para transformar<br>seu sorriso?</h2>
+                <p class="cta-description">
+                    Agende sua consulta e descubra como podemos ajudar você a conquistar
+                    o sorriso dos seus sonhos com segurança e excelência.
+                </p>
+                <div class="cta-actions">
+                    <a href="https://wa.me/5521997274651" class="btn btn-light" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="tel:+5521997274651" class="btn btn-outline-light">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <span>Ligar Agora</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cta-pattern"></div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="section-eyebrow">Entre em Contato</div>
+                    <h2 class="section-title">Odonto Novo<br><span class="title-highlight">Leblon</span></h2>
+                    <p class="contato-description">
+                        Estamos localizados na Barra da Tijuca, prontos para atender você
+                        com excelência e cuidado personalizado.
+                    </p>
+                    <div class="contato-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </span>
+                            <div class="contact-text">
+                                <span class="contact-label">Endereço</span>
+                                <span class="contact-value">Av. das Américas, 7607 - Sala 212<br>Barra da Tijuca, Rio de
+                                    Janeiro - RJ</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </span>
+                            <div class="contact-text">
+                                <span class="contact-label">Horário de Atendimento</span>
+                                <span class="contact-value">Segunda a Sexta: 10h às 20h</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </span>
+                            <div class="contact-text">
+                                <span class="contact-label">Telefone / WhatsApp</span>
+                                <span class="contact-value">(21) 99727-4651</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                </svg>
+                            </span>
+                            <div class="contact-text">
+                                <span class="contact-label">Instagram</span>
+                                <span class="contact-value">@odontonovoleblon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-map">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.117!2d-43.365!3d-22.999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU5JzU2LjQiUyA0M8KwMjEnNTQuMCJX!5e0!3m2!1spt-BR!2sbr!4v1"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-monograma">ONL</span>
+                        <span class="logo-texto">Odonto Novo Leblon</span>
+                    </div>
+                    <p class="footer-tagline">Especialista em Implantes Dentários</p>
+                    <p class="footer-description">
+                        Atendimento humanizado com tecnologia de ponta para transformar
+                        sua experiência odontológica na Barra da Tijuca.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Serviços</h4>
+                    <ul>
+                        <li><a href="#especialidades">Implante Dentário</a></li>
+                        <li><a href="#especialidades">Estética Dental</a></li>
+                        <li><a href="#especialidades">Cirurgia Oral</a></li>
+                        <li><a href="#especialidades">Prótese Dentária</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contato</h4>
+                    <p>Av. das Américas, 7607 - Sala 212<br>Barra da Tijuca, RJ</p>
+                    <p>(21) 99727-4651</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/odontonovoleblon" target="_blank" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5521997274651" target="_blank" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Odonto Novo Leblon. Todos os direitos reservados.</p>
+                <p class="footer-credit">Odonto Novo Leblon - CRO/RJ</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5521997274651" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

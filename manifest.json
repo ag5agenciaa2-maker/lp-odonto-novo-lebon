@@ -1,0 +1,18 @@
+{
+  "name": "Odonto Novo Leblon - Especialista em Implantes Dentários",
+  "short_name": "Odonto Novo Leblon",
+  "description": "Clínica odontológica especialista em implantes dentários na Barra da Tijuca, Rio de Janeiro. Atendimento humanizado com tecnologia de ponta.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#1A3A4A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/logo-odonto-novo-leblon-512x512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
