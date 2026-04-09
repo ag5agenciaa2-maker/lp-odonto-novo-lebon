@@ -35,8 +35,20 @@
 - ✅ `twitter:image`
 
 ### 5. Canonical Tag
-- ✅ Adicionada: `<link rel="canonical" href="https://www.odontonovoleblon.com.br/">`
+- ✅ Adicionada: `<link rel="canonical" href="https://www.odontonovoleblon.ag5agencia.site/">`
 - **Por quê?** Evita conteúdo duplicado e sinaliza a URL preferida.
+
+### 5b. robots.txt
+- ✅ Criado com regras para bots tradicionais + **AI bots** (ChatGPT-User, GPTBot, Claude-Web, PerplexityBot)
+- ✅ Referência ao sitemap.xml inclusa
+- ✅ URL base: `https://www.odontonovoleblon.ag5agencia.site/`
+- **Por quê?** Controla como crawlers acessam o site e permite indexação por AI engines (GEO).
+
+### 5c. sitemap.xml
+- ✅ Criado com URL canônica, última modificação, prioridade 1.0
+- ✅ 4 imagens referenciadas com titles e captions (Google Images)
+- ✅ URL base: `https://www.odontonovoleblon.ag5agencia.site/`
+- **Por quê?** Acelera indexação no Google e fornece metadados de conteúdo.
 
 ### 6. Geo Meta Tags (Local SEO)
 - ✅ `geo.region`: BR-RJ
@@ -150,14 +162,8 @@ Estas são otimizações que **não podem ser feitas via código** e exigem aç�
 
 ### 🟡 Importante
 - [ ] **SSL/HTTPS**: Garantir que o servidor force HTTPS (redirecionamento 301).
-- [ ] **Sitemap XML**: Gerar e submeter ao GSC.-
-- [ ] **Robots.txt**: Configurar corretamente:
-  ```
-  User-agent: *
-  Allow: /
-  
-  Sitemap: https://www.odontonovoleblon.com.br/sitemap.xml
-  ```
+- [x] **Sitemap XML**: ✅ Criado em `/sitemap.xml`. **Ação:** Submeter ao Google Search Console após deploy.
+- [x] **Robots.txt**: ✅ Criado em `/robots.txt` com permissão para AI bots. **Ação:** Verificar em `https://www.odontonovoleblon.ag5agencia.site/robots.txt`
 - [ ] **Backlinks Locais**: Registrar a clínica em diretórios locais (Google Places, Yelp, Doctoralia, etc.).
 - [ ] **Redes Sociais**: Linkar o site nas biografias do Instagram, Facebook, LinkedIn.
 
@@ -217,6 +223,8 @@ Para validar o Schema implementado:
 
 | Arquivo | Descrição |
 |---------|-----------|
+| `robots.txt` | Controle de crawlers + AI bots (GEO) |
+| `sitemap.xml` | Mapa do site com 4 imagens referenciadas |
 | `docs/SEO-GEO-Audit-Report.md` | Relatório completo da auditoria SEO/GEO |
 | `docs/Falta no esquema/falta-adicionar.md` | Lista de campos pendentes para resolução manual |
 
@@ -226,4 +234,4 @@ Para validar o Schema implementado:
 
 **Auditoria realizada por:** AI SEO Specialist Agent + Schema.org Skill  
 **Data:** 2026-04-09  
-**Status:** ✅ On-Page Completo | ✅ Schema.org v2.2 com @graph | ⏳ Off-Page Pendente
+**Status:** ✅ On-Page Completo | ✅ Schema.org v2.2 com @graph | ✅ robots.txt + sitemap.xml | ⏳ Off-Page Pendente

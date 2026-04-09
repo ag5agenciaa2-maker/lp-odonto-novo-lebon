@@ -310,11 +310,12 @@ button {
    HERO SECTION
    ============================================ */
 .hero {
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0 var(--space-16);
+    padding: 60px 0 var(--space-4);
     background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-white) 100%);
     position: relative;
     overflow: hidden;
@@ -1748,9 +1749,9 @@ button {
 .dep-video-item {
     display: flex;
     flex-direction: column;
-    gap: var(--space-5);
+    gap: var(--space-4);
     width: 100%;
-    max-width: 280px;
+    max-width: 140px;
 }
 
 .dep-video-label {
@@ -1976,7 +1977,7 @@ button {
     gap: var(--space-3);
     padding: 0 var(--space-6);
     margin-top: 72px;
-    height: 500px;
+    height: 250px;
 }
 
 .dep-divider-line {

@@ -1,0 +1,35 @@
+# ============================================
+# robots.txt — Odonto Novo Leblon
+# URL: https://www.odontonovoleblon.ag5agencia.site/
+# Última atualização: 2026-04-09
+# ============================================
+
+# Regras para todos os crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.odontonovoleblon.ag5agencia.site/sitemap.xml
+
+# ============================================
+# AI Bots (GEO — Generative Engine Optimization)
+# Permitir crawlers de IA para citações em ChatGPT, Claude, Perplexity
+# ============================================
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /

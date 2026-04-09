@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- ============================================
+         Sitemap XML — Odonto Novo Leblon
+         URL: https://www.odontonovoleblon.ag5agencia.site/
+         Última atualização: 2026-04-09
+         ============================================ -->
+
+    <!-- Página Principal (Landing Page) -->
+    <url>
+        <loc>https://www.odontonovoleblon.ag5agencia.site/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://www.odontonovoleblon.ag5agencia.site/assets/logo-odonto-novo-leblon-desktop.webp</image:loc>
+            <image:title>Odonto Novo Leblon - Clínica de Implantes Dentários</image:title>
+            <image:caption>Logo oficial da Odonto Novo Leblon, clínica especializada em implantes dentários na Barra da Tijuca, Rio de Janeiro.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.odontonovoleblon.ag5agencia.site/assets/clinica-odontologica-premium-barra.webp</image:loc>
+            <image:title>Clínica Odontológica Premium na Barra da Tijuca</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.odontonovoleblon.ag5agencia.site/assets/implante-dentario-carga-imediata.webp</image:loc>
+            <image:title>Implante Dentário com Carga Imediata</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.odontonovoleblon.ag5agencia.site/assets/tecnologia-odontologia-moderna.webp</image:loc>
+            <image:title>Tecnologia Moderna em Odontologia</image:title>
+        </image:image>
+    </url>
+
+</urlset>
